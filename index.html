@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>K</span>umbala <span>A</span>jay Kumar</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>I am <span></span></h1>
+        <h1> Kumbala Ajay Kumar <span></span></h1>
+        
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>AI</h1>
+            <h2>Voice Assistant</h2>
+            <p>It's software that carries out everyday tasks via voice command. It's brings AI and machine learning together to recognize our voice and do what we ask it. Voice assistant software can be found on smart speakers, smartwatches, mobile phones, tablets and other devices</p>
+          </div>
+          <div class="project-img">
+            <img src="ai.avif" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>ML</h1>
+            <h2>Fake Audio Detection </h2>
+            <p>It is indeed possible to deepfake audio or clone voices. These systems utilize machine learning algorithms to analyze vast datasets of voice recordings. Once trained, the algorithms can generate voice audio that matches the input voice's tone, pitch, and mannerisms.</p>
+          </div>
+          <div class="project-img">
+            <img src="audio.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>DMT</h1>
+            <h2>Animal Image Identification</h2>
+            <p>Animal detectors identify the presence and location of animals in videos and use another AI model to classify the detection into specific species or types. This enables tracking, recording, and census of specific animals while saving battery life and reducing data transfers</p>
+          </div>
+          <div class="project-img">
+            <img src="ani.jpeg" alt="img" >
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="nani.jpeg" alt="img" style="object-fit:fill;" >
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Front End Developer</h2>
+        <p>
+          Hi, I'm Kumbala Ajay Kumar, a 3rd-year B.Tech student at Vignan University. I’m passionate about technology, coding, and continually expanding my skill set. My journey in engineering has been both exciting and challenging, offering numerous opportunities for personal and professional growth.
+          Outside of academics, I engage in various hobbies that keep me balanced and energized. I enjoy playing games and watching movies, as they offer relaxation and a way to unwind. Reading books broadens my perspective and provides knowledge beyond my studies. Additionally, traveling and exploring new places refreshes my outlook on life and fuels my curiosity.
+          I’m always enthusiastic about taking on new projects and challenges, aiming to make a meaningful impact through my work. Let’s connect and create something amazing together!</p>
+       </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+<!-- Contact Section -->
+<section id="contact">
+  <div class="contact-container">
+    <h1>Contact Me</h1>
+    <p>For Any Queries</p>
+    <form action="mailto:kumbalaajay26@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</section>
+<!-- End Contact Section -->
+
+
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>K</span>umbala <span>A</span>jay Kumar</h1>
+      </div>
+      <h2>Your Complete Web Solution</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com/_ajay__753?igsh=MXVlY2lqcHIzejI5cQ==" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2024 Ajay. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
